@@ -1,0 +1,69 @@
+.cabecera{
+ background-color: rgb(160, 210, 173);
+
+
+.logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.input-wrapper {
+	position: relative;
+  
+	}
+
+ .input{
+  padding-left: 35px;
+ background-color:  rgb(107, 187, 107);
+ }
+
+
+.input-icon {
+	color: #191919;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	left: 12px;
+	top: 30%;
+	transform: translateY(-50%);
+}
+   
+h1{
+       text-align: center;
+       background-color:  rgb(107, 187, 107);
+       color: white;
+       
+      
+      
+   }
+
+   nav{ background-color: white;
+  
+   
+   
+   
+ 
+   
+   
+    
+   }
+
+
+.navbar {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   list-style-type: none;
+ }
+ 
+ 
+  .navbar a:hover{
+color: $Naranjita;
+}
+a{
+   text-decoration: none;
+   color: $verdecito;
+   } 
+}
+  

@@ -1,0 +1,197 @@
+.Main3{ 
+   margin: 25px;
+    .exp{
+      padding: 10px;
+      border: $Naranjita 2px solid;
+    }
+    .trab{
+       padding: 10px;
+       border: $Naranjita 2px solid;
+    }
+
+     .h2{
+        margin: 100px;
+        text-align: center;
+        color: $verdecito;
+        font-weight: bolder;
+     }
+
+     .img1 { 
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns:repeat(5, 1fr) ;
+        grid-template-rows:repeat(5, 1fr) ;
+        grid-template-areas: "sobremi1 . sobremi2 . sobremi3"
+                             "sobremi1  sobremi5  sobremi5 . sobremi4 "
+                             "sobremi6 .  sobremi7 .  sobremi13"
+                             "sobremi9 . sobremi10 .  sobremi8 "
+                             ".  sobremi11 . sobremi12 .";
+                        
+                           }
+                            img{  margin: 0px;
+                                width: 100%;
+                            }
+         .sobremi1{
+            grid-area: sobremi1;
+          
+            }
+            
+         .sobremi2{
+            grid-area: sobremi2;
+         
+         }  
+         .sobremi3{
+            grid-area: sobremi3;
+          
+         }  
+         .sobremi4{
+            grid-area: sobremi4;
+            
+         }  
+         .sobremi5{
+            grid-area: sobremi5;
+       
+         }  
+         .sobremi6{
+            grid-area: sobremi6;
+           
+         }  
+         .sobremi7{
+            grid-area: sobremi7;
+      
+         }  
+         .sobremi8{
+            grid-area: sobremi8;
+    
+         }  
+         .sobremi9{
+            grid-area: sobremi9;
+           
+         } 
+         .sobremi10{
+            grid-area: sobremi10;
+        
+         } 
+         .sobremi11{
+            grid-area: sobremi11;
+        
+         } 
+         .sobremi12{
+            grid-area: sobremi12;
+         }
+       
+         .sobremi13{
+            grid-area: sobremi13;
+        
+         } 
+
+         .img2{ 
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns:repeat(4, 1fr) ;
+            grid-template-rows:repeat(5, 1fr) ;
+            grid-gap: 10px;
+            grid-template-areas: "sobremi14  sobremi15  sobremi24 sobremi16"
+                                 "sobremi25 sobremi18  sobremi27 sobremi16"
+                                 "sobremi20   sobremi19 sobremi21 sobremi21"
+                                 "sobremi22 .  sobremi23 sobrem23"
+                                 "   sobremi26  sobremi26 . sobremi17 " ;
+                            
+                                }
+                                img{ 
+                                  margin: 0px;
+                                  width: 100%;
+                                }
+             .sobremi14{
+                grid-area: sobremi14;
+              
+                }
+                
+             .sobremi15{
+                grid-area: sobremi15;
+             
+             }  
+             .sobremi16{
+                grid-area: sobremi16;
+              
+             }  
+             .sobremi17{
+                grid-area: sobremi17;
+                
+             }  
+             .sobremi18{
+                grid-area: sobremi18;
+           
+             }  
+             .sobremi19{
+                grid-area: sobremi19;
+               
+             }  
+             .sobremi20{
+                grid-area: sobremi20;
+          
+             }  
+             .sobremi21{
+                grid-area: sobremi21;
+        
+             }  
+             .sobremi22{
+                grid-area: sobremi22;
+               
+             } 
+             .sobremi23{
+                grid-area: sobremi23;
+            
+             } 
+             .sobremi24{
+                grid-area: sobremi24;
+            
+             } 
+             
+             .sobremi25{
+                grid-area: sobremi25;
+            
+             } 
+             
+             .sobremi26{
+                grid-area: sobremi26;
+            
+             } 
+             .sobremi27{
+                grid-area: sobremi27;
+            
+             } 
+
+     .Texto{
+    display: grid;
+    grid-template-columns:repeat(3 1fr) ;
+    grid-template-rows: repeat(3 1fr) ;
+    grid-template-areas: "h2 h2 h2"
+                      "h3Exp . pExp"
+                      "h3Tr . pTr" ;
+                      }
+                    
+.h2{
+grid-area: h2;
+}
+.h3exp{
+    grid-area: h3Exp;
+}
+.pexp{
+    grid-area: pExp
+}
+.h3trabajos{
+    grid-area: h3Tr;
+}
+.pTrabajos{
+    grid-area: pTr;
+}
+.img{ 
+   grid-area: img;
+}
+.camara{
+    width: 500px;
+    height: 400px;
+}
+
+}

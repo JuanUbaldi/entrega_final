@@ -1,0 +1,265 @@
+@media screen  and (max-width: 480px)and (min-width: 1px) {
+
+    .cabecera{
+    
+    h1{
+        text-align: center;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+
+.Main2{
+.formulario{
+   margin: 50px;
+   padding: 40px;
+   width: 80%;
+    input, textarea {
+      width: 100%;
+           }
+    button {
+        background-color: rgb(190, 127, 10);
+        color: white;
+        width: 40%;
+      }
+        button:hover{
+            background-color: rgb(236, 173, 57);
+       }
+    }
+}
+
+.Main3{
+    .Texto{
+    display: flex;
+    flex-direction: column;
+ }
+.img1{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) ;
+    grid-template-rows:repeat(5, 1fr) ;
+    grid-template-areas: "  sobremi1  sobremi2 sobremi3"
+                         "sobremi4 sobremi5 sobremi5  "
+                         " sobremi6   sobremi7 sobremi7"
+                         "  sobremi9 sobremi10 sobremi8  "
+                         "  sobremi11 sobremi13 sobremi12 ";
+                     }
+                        img{  margin: 0px;
+                            width: 100%;
+                        }
+     .sobremi1{
+        grid-area: sobremi1;
+      
+        }
+        
+     .sobremi2{
+        grid-area: sobremi2;
+     
+     }  
+     .sobremi3{
+        grid-area: sobremi3;
+      
+     }  
+     .sobremi4{
+        grid-area: sobremi4;
+        
+     }  
+     .sobremi5{
+        grid-area: sobremi5;
+   
+     }  
+     .sobremi6{
+        grid-area: sobremi6;
+       
+     }  
+     .sobremi7{
+        grid-area: sobremi7;
+  
+     }  
+     .sobremi8{
+        grid-area: sobremi8;
+
+     }  
+     .sobremi9{
+        grid-area: sobremi9;
+       
+     } 
+     .sobremi10{
+        grid-area: sobremi10;
+    
+     } 
+     .sobremi11{
+        grid-area: sobremi11;
+    
+     } 
+     .sobremi12{
+        grid-area: sobremi12;
+     }
+   
+     .sobremi13{
+        grid-area: sobremi13;
+    
+     } 
+                  
+     .img2{ 
+        margin-top: 100px;
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+        grid-template-rows:repeat(6, 1fr) ;
+        grid-template-areas: "  sobremi14  sobremi15 sobremi16"
+                             "sobremi17 sobremi18 sobremi18 "
+                             " sobremi20   sobremi20 sobremi21"
+                             "  sobremi22 sobremi23 sobremi23  "
+                             "  sobremi24 sobremi25 sobremi26  "
+                             " sobremi27 . sobremi19";
+                        
+                            }
+                            img{  
+                              margin: 0px;
+                              width: 100%;
+                            }
+         .sobremi14{
+            grid-area: sobremi14;
+          
+            }
+            
+         .sobremi15{
+            grid-area: sobremi15;
+         
+         }  
+         .sobremi16{
+            grid-area: sobremi16;
+          
+         }  
+         .sobremi17{
+            grid-area: sobremi17;
+            
+         }  
+         .sobremi18{
+            grid-area: sobremi18;
+       
+         }  
+         .sobremi19{
+            grid-area: sobremi19;
+           
+         }  
+         .sobremi20{
+            grid-area: sobremi20;
+      
+         }  
+         .sobremi21{
+            grid-area: sobremi21;
+    
+         }  
+         .sobremi22{
+            grid-area: sobremi22;
+           
+         } 
+         .sobremi23{
+            grid-area: sobremi23;
+        
+         } 
+         .sobremi24{
+            grid-area: sobremi24;
+        
+         } 
+         
+         .sobremi25{
+            grid-area: sobremi25;
+        
+         } 
+         
+         .sobremi26{
+            grid-area: sobremi26;
+        
+         } 
+         .sobremi27{
+            grid-area: sobremi27;
+        
+         } 
+      }
+
+.Main4{
+
+.container{
+  width: 100%;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+ }
+h2{
+    text-align: center;
+ } 
+
+ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.lugar{
+    position: absolute;
+    font-size: 2rem;
+    bottom: 0px;}
+
+.container a {  
+  text-decoration: none;
+   color: rgb(50, 145, 140);
+   font-weight: bolder;
+   background-color: green;
+ }
+}
+.SingapurFlex {
+    display: flex;
+    flex-direction: column; }
+    .SingapurFlex img {
+      width: 100%; }
+  .AlaskaFlex {
+    display: flex;
+    flex-direction: column; }
+    .AlaskaFlex img {
+      width: 100%; }
+  .HKFlex {
+    display: flex;
+    flex-direction: column; }
+    .HKFlex img {
+      width: 100%; }
+  .CRFlex {
+    display: flex;
+    flex-direction: column; }
+    .CRFlex img {
+      width: 100%; }
+  .VienaFlex {
+    display: flex;
+    flex-direction: column; }
+    .VienaFlex img {
+      width: 100%; } 
+
+.Main5{
+    h3{
+        text-align: center;
+    }
+    .slide img{
+         width: 100%;
+         height: auto;
+         object-fit: cover;
+      }
+   }
+
+    /*animaciones*/
+   .footer{ 
+      img{
+         
+      
+        transition: width 2s, height 2s, transform 2s;}
+       
+       img:hover{
+        width: 65px;
+        height: 65px;
+       }
+   }
+}

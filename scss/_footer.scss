@@ -1,0 +1,27 @@
+
+   .footer{
+     margin-top: 100px;
+    background-color: rgb(107, 187, 107);
+    .h5{
+        text-align: center;
+    }
+    .redes{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+     }
+     
+     /*animaciones*/
+      img{
+        padding: 10px;
+        
+          transition: width 2s, height 2s, transform 2s;}
+         
+         img:hover{
+          width: 65px;
+          height: 65px;
+         }
+  
+       
+    }

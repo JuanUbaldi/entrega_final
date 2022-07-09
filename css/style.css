@@ -1,0 +1,439 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+#bodyContainer {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  background-color: #c1e2c1; }
+
+.cabecera {
+  background-color: #a0d2ad; }
+  .cabecera .logo {
+    display: flex;
+    justify-content: space-between; }
+  .cabecera .input-wrapper {
+    position: relative; }
+  .cabecera .input {
+    padding-left: 35px;
+    background-color: #6bbb6b; }
+  .cabecera .input-icon {
+    color: #191919;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+    top: 30%;
+    transform: translateY(-50%); }
+  .cabecera h1 {
+    text-align: center;
+    background-color: #6bbb6b;
+    color: white; }
+  .cabecera nav {
+    background-color: white; }
+  .cabecera .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none; }
+  .cabecera .navbar a:hover {
+    color: orangered; }
+  .cabecera a {
+    text-decoration: none;
+    color: green; }
+
+.principal .frase1 {
+  text-align: end; }
+
+.principal .frase2 {
+  text-align: end; }
+
+.principal .presentación {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.footer {
+  margin-top: 100px;
+  background-color: #6bbb6b;
+  /*animaciones*/ }
+  .footer .h5 {
+    text-align: center; }
+  .footer .redes {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+  .footer img {
+    padding: 10px;
+    transition: width 2s, height 2s, transform 2s; }
+  .footer img:hover {
+    width: 65px;
+    height: 65px; }
+
+.Main2 .formulario {
+  width: 25%;
+  border: solid orange 2px;
+  margin: auto;
+  padding: 20px; }
+  .Main2 .formulario input, .Main2 .formulario textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 1px grey; }
+  .Main2 .formulario button {
+    background-color: #be7f0a;
+    color: white;
+    width: 40%; }
+  .Main2 .formulario button:hover {
+    background-color: #ecad39; }
+
+.Main2 .mapa h3 {
+  color: green;
+  font-weight: bolder;
+  text-align: center;
+  margin: 100px; }
+
+.Main3 {
+  margin: 25px; }
+  .Main3 .exp {
+    padding: 10px;
+    border: orangered 2px solid; }
+  .Main3 .trab {
+    padding: 10px;
+    border: orangered 2px solid; }
+  .Main3 .h2 {
+    margin: 100px;
+    text-align: center;
+    color: green;
+    font-weight: bolder; }
+  .Main3 .img1 {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "sobremi1 . sobremi2 . sobremi3" "sobremi1  sobremi5  sobremi5 . sobremi4 " "sobremi6 .  sobremi7 .  sobremi13" "sobremi9 . sobremi10 .  sobremi8 " ".  sobremi11 . sobremi12 ."; }
+  .Main3 img {
+    margin: 0px;
+    width: 100%; }
+  .Main3 .sobremi1 {
+    grid-area: sobremi1; }
+  .Main3 .sobremi2 {
+    grid-area: sobremi2; }
+  .Main3 .sobremi3 {
+    grid-area: sobremi3; }
+  .Main3 .sobremi4 {
+    grid-area: sobremi4; }
+  .Main3 .sobremi5 {
+    grid-area: sobremi5; }
+  .Main3 .sobremi6 {
+    grid-area: sobremi6; }
+  .Main3 .sobremi7 {
+    grid-area: sobremi7; }
+  .Main3 .sobremi8 {
+    grid-area: sobremi8; }
+  .Main3 .sobremi9 {
+    grid-area: sobremi9; }
+  .Main3 .sobremi10 {
+    grid-area: sobremi10; }
+  .Main3 .sobremi11 {
+    grid-area: sobremi11; }
+  .Main3 .sobremi12 {
+    grid-area: sobremi12; }
+  .Main3 .sobremi13 {
+    grid-area: sobremi13; }
+  .Main3 .img2 {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-template-areas: "sobremi14  sobremi15  sobremi24 sobremi16" "sobremi25 sobremi18  sobremi27 sobremi16" "sobremi20   sobremi19 sobremi21 sobremi21" "sobremi22 .  sobremi23 sobrem23" "   sobremi26  sobremi26 . sobremi17 "; }
+  .Main3 img {
+    margin: 0px;
+    width: 100%; }
+  .Main3 .sobremi14 {
+    grid-area: sobremi14; }
+  .Main3 .sobremi15 {
+    grid-area: sobremi15; }
+  .Main3 .sobremi16 {
+    grid-area: sobremi16; }
+  .Main3 .sobremi17 {
+    grid-area: sobremi17; }
+  .Main3 .sobremi18 {
+    grid-area: sobremi18; }
+  .Main3 .sobremi19 {
+    grid-area: sobremi19; }
+  .Main3 .sobremi20 {
+    grid-area: sobremi20; }
+  .Main3 .sobremi21 {
+    grid-area: sobremi21; }
+  .Main3 .sobremi22 {
+    grid-area: sobremi22; }
+  .Main3 .sobremi23 {
+    grid-area: sobremi23; }
+  .Main3 .sobremi24 {
+    grid-area: sobremi24; }
+  .Main3 .sobremi25 {
+    grid-area: sobremi25; }
+  .Main3 .sobremi26 {
+    grid-area: sobremi26; }
+  .Main3 .sobremi27 {
+    grid-area: sobremi27; }
+  .Main3 .Texto {
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: repeat(3 1fr);
+    grid-template-areas: "h2 h2 h2" "h3Exp . pExp" "h3Tr . pTr"; }
+  .Main3 .h2 {
+    grid-area: h2; }
+  .Main3 .h3exp {
+    grid-area: h3Exp; }
+  .Main3 .pexp {
+    grid-area: pExp; }
+  .Main3 .h3trabajos {
+    grid-area: h3Tr; }
+  .Main3 .pTrabajos {
+    grid-area: pTr; }
+  .Main3 .img {
+    grid-area: img; }
+  .Main3 .camara {
+    width: 500px;
+    height: 400px; }
+
+.Main4 .Fotos {
+  margin: 100px; }
+  .Main4 .Fotos h2 {
+    margin-top: 100px;
+    text-align: center;
+    color: green;
+    font-weight: bolder; }
+  .Main4 .Fotos p {
+    margin-top: 100px; }
+
+.Main4 .container {
+  margin: 100px auto;
+  width: 800px;
+  height: 600px;
+  position: relative;
+  overflow: hidden; }
+
+.Main4 img {
+  width: 100%;
+  height: 600px; }
+
+.Main4 .lugar {
+  position: absolute;
+  font-size: 2rem;
+  bottom: 0px; }
+
+.Main4 .container a {
+  text-decoration: none;
+  color: #32918c;
+  font-weight: bolder;
+  background-color: green; }
+
+.Austria {
+  margin-top: 100px; }
+  .Austria h2 {
+    text-align: center;
+    color: green; }
+
+.HongKong {
+  margin-top: 100px; }
+  .HongKong h2 {
+    text-align: center;
+    color: green; }
+
+.Singapur {
+  margin-top: 100px; }
+  .Singapur h2 {
+    text-align: center;
+    color: green; }
+
+.CR {
+  margin-top: 100px; }
+  .CR h2 {
+    text-align: center;
+    color: green; }
+
+.Alaska {
+  margin-top: 100px; }
+  .Alaska h2 {
+    text-align: center;
+    color: green; }
+
+.Main5 h2 {
+  text-align: center;
+  margin: 100px;
+  color: green;
+  font-weight: bolder; }
+
+.Main5 .eventos {
+  margin-top: 100px; }
+
+.Main5 p {
+  text-align: center; }
+
+.Main5 h3 {
+  text-align: center;
+  color: green;
+  font-weight: bolder; }
+
+.Main5 .slide img {
+  width: 50%;
+  height: 400px; }
+
+@media screen and (max-width: 480px) and (min-width: 1px) {
+  .cabecera h1 {
+    text-align: center; }
+  .cabecera .navbar {
+    display: flex;
+    flex-direction: column; }
+  .Main2 .formulario {
+    margin: 50px;
+    padding: 40px;
+    width: 80%; }
+    .Main2 .formulario input, .Main2 .formulario textarea {
+      width: 100%; }
+    .Main2 .formulario button {
+      background-color: #be7f0a;
+      color: white;
+      width: 40%; }
+    .Main2 .formulario button:hover {
+      background-color: #ecad39; }
+  .Main3 .Texto {
+    display: flex;
+    flex-direction: column; }
+  .Main3 .img1 {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: "  sobremi1  sobremi2 sobremi3" "sobremi4 sobremi5 sobremi5  " " sobremi6   sobremi7 sobremi7" "  sobremi9 sobremi10 sobremi8  " "  sobremi11 sobremi13 sobremi12 "; }
+  .Main3 img {
+    margin: 0px;
+    width: 100%; }
+  .Main3 .sobremi1 {
+    grid-area: sobremi1; }
+  .Main3 .sobremi2 {
+    grid-area: sobremi2; }
+  .Main3 .sobremi3 {
+    grid-area: sobremi3; }
+  .Main3 .sobremi4 {
+    grid-area: sobremi4; }
+  .Main3 .sobremi5 {
+    grid-area: sobremi5; }
+  .Main3 .sobremi6 {
+    grid-area: sobremi6; }
+  .Main3 .sobremi7 {
+    grid-area: sobremi7; }
+  .Main3 .sobremi8 {
+    grid-area: sobremi8; }
+  .Main3 .sobremi9 {
+    grid-area: sobremi9; }
+  .Main3 .sobremi10 {
+    grid-area: sobremi10; }
+  .Main3 .sobremi11 {
+    grid-area: sobremi11; }
+  .Main3 .sobremi12 {
+    grid-area: sobremi12; }
+  .Main3 .sobremi13 {
+    grid-area: sobremi13; }
+  .Main3 .img2 {
+    margin-top: 100px;
+    margin-left: 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "  sobremi14  sobremi15 sobremi16" "sobremi17 sobremi18 sobremi18 " " sobremi20   sobremi20 sobremi21" "  sobremi22 sobremi23 sobremi23  " "  sobremi24 sobremi25 sobremi26  " " sobremi27 . sobremi19"; }
+  .Main3 img {
+    margin: 0px;
+    width: 100%; }
+  .Main3 .sobremi14 {
+    grid-area: sobremi14; }
+  .Main3 .sobremi15 {
+    grid-area: sobremi15; }
+  .Main3 .sobremi16 {
+    grid-area: sobremi16; }
+  .Main3 .sobremi17 {
+    grid-area: sobremi17; }
+  .Main3 .sobremi18 {
+    grid-area: sobremi18; }
+  .Main3 .sobremi19 {
+    grid-area: sobremi19; }
+  .Main3 .sobremi20 {
+    grid-area: sobremi20; }
+  .Main3 .sobremi21 {
+    grid-area: sobremi21; }
+  .Main3 .sobremi22 {
+    grid-area: sobremi22; }
+  .Main3 .sobremi23 {
+    grid-area: sobremi23; }
+  .Main3 .sobremi24 {
+    grid-area: sobremi24; }
+  .Main3 .sobremi25 {
+    grid-area: sobremi25; }
+  .Main3 .sobremi26 {
+    grid-area: sobremi26; }
+  .Main3 .sobremi27 {
+    grid-area: sobremi27; }
+  .Main4 .container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden; }
+  .Main4 h2 {
+    text-align: center; }
+  .Main4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .Main4 .lugar {
+    position: absolute;
+    font-size: 2rem;
+    bottom: 0px; }
+  .Main4 .container a {
+    text-decoration: none;
+    color: #32918c;
+    font-weight: bolder;
+    background-color: green; }
+  .SingapurFlex {
+    display: flex;
+    flex-direction: column; }
+  .SingapurFlex img {
+    width: 100%; }
+  .AlaskaFlex {
+    display: flex;
+    flex-direction: column; }
+  .AlaskaFlex img {
+    width: 100%; }
+  .HKFlex {
+    display: flex;
+    flex-direction: column; }
+  .HKFlex img {
+    width: 100%; }
+  .CRFlex {
+    display: flex;
+    flex-direction: column; }
+  .CRFlex img {
+    width: 100%; }
+  .VienaFlex {
+    display: flex;
+    flex-direction: column; }
+  .VienaFlex img {
+    width: 100%; }
+  .Main5 h3 {
+    text-align: center; }
+  .Main5 .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; }
+  /*animaciones*/
+  .footer img {
+    transition: width 2s, height 2s, transform 2s; }
+  .footer img:hover {
+    width: 65px;
+    height: 65px; } }

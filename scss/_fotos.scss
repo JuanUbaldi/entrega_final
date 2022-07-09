@@ -1,0 +1,42 @@
+
+    .Main4{
+       .Fotos{
+         margin: 100px;
+          h2{
+        margin-top: 100px;
+         text-align: center;
+         color: $verdecito;
+         font-weight: bolder;
+        }
+        p{
+            margin-top: 100px;
+        }
+       }
+
+        .container{
+           margin: 100px auto;
+            width: 800px;
+            height: 600px;
+            position: relative;
+            overflow: hidden;
+         }
+         img{
+            width: 100%;
+            height: 600px;
+        }
+        .lugar{
+            position: absolute;
+            font-size: 2rem;
+            bottom: 0px;}
+
+  
+        .container a {  
+          text-decoration: none;
+         color: rgb(50, 145, 140);
+         font-weight: bolder;
+         background-color: $verdecito;
+         }
+
+       
+
+       }
